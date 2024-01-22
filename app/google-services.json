@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "401245065563",
+    "project_id": "productsadder-c0046",
+    "storage_bucket": "productsadder-c0046.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401245065563:android:ecd8d6441c72b9f9caca7e",
+        "android_client_info": {
+          "package_name": "com.example.productsadder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARxv-u8nzqEG5YnGg11upxptLyK3QkxdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
