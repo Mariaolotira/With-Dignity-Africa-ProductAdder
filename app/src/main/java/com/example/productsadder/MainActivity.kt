@@ -24,6 +24,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.tasks.await
 import kotlinx.coroutines.withContext
 import java.io.ByteArrayOutputStream
+import java.lang.Exception
 import java.util.UUID
 
 class MainActivity : AppCompatActivity() {
@@ -115,7 +116,7 @@ class MainActivity : AppCompatActivity() {
                         }
                     }
                 }.await()
-            } catch (e: java.lang.Exception) {
+            } catch (e: Exception) {
                 e.printStackTrace()
                 withContext(Dispatchers.Main) {
                     hideLoading()
